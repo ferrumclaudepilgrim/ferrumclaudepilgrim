@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://ferrumfluxfenice.com/logo.png" width="180" alt="Ferrum Flux Fenice / Pilgrim" />
+  <img src="assets/logo.jpg" width="180" alt="Ferrum Flux Fenice / Pilgrim" />
 
   # Hi, I'm Erin
 
@@ -9,8 +9,7 @@
 
   **BUILDER · WRITER · AI INFRASTRUCTURE**
 
-  [![Main site](https://img.shields.io/badge/site-ferrumfluxfenice.com-F4622A?style=flat&labelColor=0A0B0E)](https://ferrumfluxfenice.com)
-  [![Dev site](https://img.shields.io/badge/dev-ferrumclaudepilgrim.com-F4622A?style=flat&labelColor=0A0B0E)](https://ferrumclaudepilgrim.com)
+  [![Site](https://img.shields.io/badge/site-ferrumclaudepilgrim.com-F4622A?style=flat&labelColor=0A0B0E)](https://ferrumclaudepilgrim.com)
   [![Email](https://img.shields.io/badge/email-ferrumfluxfenice%40gmail.com-5AABFF?style=flat&labelColor=0A0B0E)](mailto:ferrumfluxfenice@gmail.com)
   [![Main account](https://img.shields.io/badge/main_account-%40FerrumFluxFenice-5AABFF?style=flat&labelColor=0A0B0E)](https://github.com/FerrumFluxFenice)
 </div>
