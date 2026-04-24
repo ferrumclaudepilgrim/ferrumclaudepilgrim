@@ -10,17 +10,18 @@
   **BUILDER · WRITER · AI INFRASTRUCTURE**
 
   [![Site](https://img.shields.io/badge/site-ferrumclaudepilgrim.com-F4622A?style=flat&labelColor=0A0B0E)](https://ferrumclaudepilgrim.com)
-  [![Email](https://img.shields.io/badge/email-ferrumfluxfenice%40gmail.com-5AABFF?style=flat&labelColor=0A0B0E)](mailto:ferrumfluxfenice@gmail.com)
-  [![Main account](https://img.shields.io/badge/main_account-%40FerrumFluxFenice-5AABFF?style=flat&labelColor=0A0B0E)](https://github.com/FerrumFluxFenice)
-</div>
+  [![Email](https://img.shields.io/badge/email-ferrumfluxfenice%40gmail.com-5AABFF?style=flat&labelColor=0A0B0E)](mailto:ferrumclaudepilgrim@gmail.com)
 
 ---
 
-This is my mobile dev account. Most of my open-source work lives here,
-done from a Samsung Galaxy S26 Ultra running Termux. After the AI chat
-that started it, I built my own PC, took Anthropic's AI Fluency and
-Google's AI Essentials, killed a vibe-coded hex puzzle game, and have
-been getting less wrong since.
+I am not here to be a vibe-coder or introduce AI slop into the community.
+In fact my goal and intent is to do the exact opposite. Each comment,
+PR, or issue is tested, validated, researched thoroughly, determined
+for viability and capability fully before a line of code is written. 
+My goal is to find where the bugs connect. How the 3 issues that are
+separate actually inter-weave. I won't get it perfect. Mistakes will
+happen. I am excited to continue learning, growing, contributing,
+and enjoying this journey.
 
 I run a six-device home lab connected over Tailscale: two Android phones
 (a Samsung Galaxy S26 Ultra and a Google Pixel 10 Pro on Android 17 Beta,
@@ -29,21 +30,18 @@ desktop with an RTX 5070 for inference and Docker builds, a Windows
 laptop for mobile work, an Ubuntu VPS for persistent services, and a
 Chromebook running Debian inside Crostini.
 
-On the Samsung phone, I run a Claude Code setup with multiple specialist
-agent roles for different concerns. One plans, one writes code, one
+I run a Claude Code setup with multiple specialist agent 
+roles for different concerns. One plans, one writes code, one
 documents, one keeps the repo clean, one researches, one handles
 audience-facing work. Session hooks enforce safety rules before any
 git commit or push. Every non-trivial call I make gets written down,
 both the wins and the bail decisions, so I can check my own reasoning
 later and so anyone reading along can follow how I got there.
 
-The recovery infrastructure was proven for real a couple weeks ago when
-an agent script wiped my Android home directory by mistake. Everything
-that mattered was already tracked in git, every device knew about every
-other device, and the whole system could be reproduced from a fresh
-phone with a clone and an install script. Total recovery time was under
-a day. I'd built the infrastructure before I needed it.
-
+Currently I am studying heavily in the Android Audio ecosystem, network and system 
+security, Python, Linux, and AI/ LLM landscape. I am a learn first, plan it out,
+deep dive, problem solver. I want to learn the right way while taking advantage
+of the thoroughput large language models provide to increase efficiency.
 That's the kind of work I do. AI-assisted, fully disclosed, choices and
 on-device verification mine.
 
@@ -109,7 +107,7 @@ specifics is just process language:
   opening the workstream, by running a basic "what's already in the tree"
   check before doing the activity-signal research that had been the plan.
 
-AI assistance is the tool I use everywhere. The choices, the on-device
+AI assistance is the tool I use not the controller. The choices, the on-device
 verification, and the corrections are mine. When I get something wrong
 (and I do), the correction is in the same thread.
 
@@ -122,7 +120,7 @@ across the territory I'll need for the next chapter.
 
 - **Coursework completed:** Anthropic AI Fluency, Google AI Essentials,
   100+ hours of Coursera across AI/ML and adjacent topics
-- **Currently studying:** CompTIA Security+ (cert prep, active)
+- **Currently studying:** CompTIA Security+ (cert prep, active), Linux, Python.
 - **Daily scripting practice** in PowerShell, bash, and Python. AI-assisted,
   but the AI is the tutor as much as the tool. Every script I write, I
   ask why each piece works the way it does, then read the docs to
@@ -144,8 +142,7 @@ Two reasons.
 One, I'm learning out loud. The notes I keep and the public comments I
 post are notes I write to my future self, but they're also notes anyone
 else can read. Someone going through the same path I went through (no
-CS degree, learned AI from scratch in the last year and a half, trying
-to ship real work) might find the trail useful.
+CS degree but has the drive, passion, and mindset) might find the trail useful.
 
 Two, I want to be wrong publicly so I can stop being wrong faster. The
 honest AI-disclosure pattern, the bail decisions, the "happy to be
