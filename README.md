@@ -47,6 +47,19 @@ on-device verification mine.
 
 ---
 
+## At a glance
+
+|   | Status |
+|---|---|
+| [`tailscale/tailscale#19628`](https://github.com/tailscale/tailscale/pull/19628) | open, awaiting review |
+| [`rclone/rclone#9401`](https://github.com/rclone/rclone/pull/9401) | open, awaiting review |
+| [`termux-packages#29074`](https://github.com/termux/termux-packages/pull/29074) | approved, awaiting second member |
+| [`termux-packages#29319`](https://github.com/termux/termux-packages/pull/29319) | approved, awaiting second member |
+| [`claude-code-android`](https://github.com/ferrumclaudepilgrim/claude-code-android) | maintained, ★38 |
+| [`bubbalandspropertyservices.com`](https://bubbalandspropertyservices.com) | live |
+
+---
+
 ## Selected upstream contributions
 
 ### `termux-packages` · 3 PRs · 1 merged · 2 approved-open
@@ -103,7 +116,8 @@ Small business marketing site for Bubba Lands Property Services LLC, a landscapi
 
 ---
 
-## How and why I work this way
+<details>
+<summary><strong>How and why I work this way</strong></summary>
 
 The lab, the agent system, and the habit of writing down my reasoning
 aren't a flex. They're the conditions that make contributing possible
@@ -130,9 +144,12 @@ AI assistance is the tool I use not the controller. The choices, the on-device
 verification, and the corrections are mine. When I get something wrong
 (and I do), the correction is in the same thread.
 
+</details>
+
 ---
 
-## Where I'm still learning
+<details>
+<summary><strong>Where I'm still learning</strong></summary>
 
 The OSS work is one face of a larger thing. Actively building skills
 across the territory I'll need for the next chapter.
@@ -152,9 +169,12 @@ across the territory I'll need for the next chapter.
 I am not a developer. I am someone who is learning to do the work, using
 every tool that helps without pretending the help isn't there.
 
+</details>
+
 ---
 
-## Why I publish all this
+<details>
+<summary><strong>Why I publish all this</strong></summary>
 
 Two reasons.
 
@@ -168,6 +188,8 @@ honest AI-disclosure pattern, the bail decisions, the "happy to be
 wrong" framings exist because someone catching me means I get to learn
 something. If you read something I posted that's mistaken, please tell
 me.
+
+</details>
 
 ---
 
