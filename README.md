@@ -12,6 +12,17 @@
   [![Site](https://img.shields.io/badge/site-ferrumclaudepilgrim.com-F4622A?style=flat&labelColor=0A0B0E)](https://ferrumclaudepilgrim.com)
   [![Email](https://img.shields.io/badge/email-ferrumclaudepilgrim%40gmail.com-5AABFF?style=flat&labelColor=0A0B0E)](mailto:ferrumclaudepilgrim@gmail.com)
 
+  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black&labelColor=0A0B0E)
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white&labelColor=0A0B0E)
+  ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white&labelColor=0A0B0E)
+  ![Android / Termux](https://img.shields.io/badge/Android%20%2F%20Termux-3DDC84?style=flat&logo=android&logoColor=white&labelColor=0A0B0E)
+  ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat&logo=tailscale&logoColor=white&labelColor=0A0B0E)
+  ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat&logo=cloudflarepages&logoColor=white&labelColor=0A0B0E)
+  ![Anthropic Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white&labelColor=0A0B0E)
+  ![Ollama / local LLM](https://img.shields.io/badge/Ollama%20%2F%20local%20LLM-000000?style=flat&logo=ollama&logoColor=white&labelColor=0A0B0E)
+  ![OpenAI Codex / GPT](https://img.shields.io/badge/OpenAI%20Codex%20%2F%20GPT-412991?style=flat&logo=openai&logoColor=white&labelColor=0A0B0E)
+  ![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat&logo=googlegemini&logoColor=white&labelColor=0A0B0E)
+
 ---
 
 I am not here to be a vibe-coder or introduce AI slop into the community.
@@ -30,89 +41,40 @@ checks), a Windows desktop with an RTX 5070 for inference and Docker
 builds, a Windows laptop for mobile work, an Ubuntu VPS for persistent
 services, and a Chromebook running Debian inside Crostini.
 
-I run a Claude Code setup with multiple specialist agent 
-roles for different concerns. One plans, one writes code, one
-documents, one keeps the repo clean, one researches, one handles
-audience-facing work. Session hooks enforce safety rules before any
-git commit or push. Every non-trivial call I make gets written down,
-both the wins and the bail decisions, so I can check my own reasoning
-later and so anyone reading along can follow how I got there.
-
-Currently I am studying heavily in the Android Audio ecosystem, network and system 
-security, Python, Linux, and AI/ LLM landscape. I am a learn first, plan it out,
-deep dive, problem solver. I want to learn the right way while taking advantage
-of the thoroughput large language models provide to increase efficiency.
-That's the kind of work I do. AI-assisted, fully disclosed, choices and
-on-device verification mine.
+I run a Claude Code setup with specialist agent roles for different
+concerns: one plans, one writes code, one documents, one keeps the repo
+clean, one researches, one handles audience-facing work. Session hooks
+enforce safety rules before any git commit or push. Every non-trivial
+call gets written down, both wins and bail decisions, so I can check my
+own reasoning and anyone reading along can follow how I got there. I am
+a learn first, plan it out, deep dive, problem solver. AI-assisted,
+fully disclosed, choices and on-device verification mine. Currently
+studying the Android ecosystem, network and system security, Python,
+Linux, and the AI/LLM landscape.
 
 ---
 
-## At a glance
+## Shipped and in flight
 
-|   | Status |
-|---|---|
-| [`tailscale/tailscale#19628`](https://github.com/tailscale/tailscale/pull/19628) | open, awaiting review |
-| [`rclone/rclone#9401`](https://github.com/rclone/rclone/pull/9401) | open, awaiting review |
-| [`termux-packages#29074`](https://github.com/termux/termux-packages/pull/29074) | approved, awaiting second member |
-| [`termux-packages#29319`](https://github.com/termux/termux-packages/pull/29319) | approved, awaiting second member |
-| [`claude-code-android`](https://github.com/ferrumclaudepilgrim/claude-code-android) | maintained, ★38 |
-| [`bubbalandspropertyservices.com`](https://bubbalandspropertyservices.com) | live |
+| | Project | What | Status |
+|---|---|---|---|
+| OSS PR | [`termux-packages#29123`](https://github.com/termux/termux-packages/pull/29123) | `fix(main/cups)` web UI permissions and missing runtime dirs | MERGED 2026-03-28 |
+| OSS PR | [`termux-packages#29074`](https://github.com/termux/termux-packages/pull/29074) | `enhance(main/pulseaudio)` AAudio source module for mic input | APPROVED |
+| OSS PR | [`termux-packages#29319`](https://github.com/termux/termux-packages/pull/29319) | `addpkg(main/oboe) + openal-soft + pulseaudio` Oboe stack | APPROVED |
+| OSS PR | [`tailscale/tailscale#19628`](https://github.com/tailscale/tailscale/pull/19628) | userspace-networking default on Crostini | OPEN |
+| OSS PR | [`rclone/rclone#9401`](https://github.com/rclone/rclone/pull/9401) | `--local-fatal-if-no-space` flag for local backend | OPEN |
+| Maintained | [`claude-code-android`](https://github.com/ferrumclaudepilgrim/claude-code-android) | Native Termux + AVF guide and Claude Code recovery scripts | ★38, v2.7.0 emergency pin shipped 8h after upstream regression |
+| Client | [`bubbalandspropertyservices.com`](https://bubbalandspropertyservices.com) | Astro 6 + Tailwind 4 marketing site for landscaping contractor | Live |
 
 ---
 
-## Selected upstream contributions
-
-### `termux-packages` · 3 PRs · 1 merged · 2 approved-open
-
-#### [PR #29123](https://github.com/termux/termux-packages/pull/29123) · `fix(main/cups)` · MERGED
-
-Web UI permissions and missing runtime dirs for CUPS printing on Termux.
-
-> Merged after maintainer review on 2026-03-28.
-
-#### [PR #29074](https://github.com/termux/termux-packages/pull/29074) · `enhance(main/pulseaudio)` · APPROVED
-
-AAudio source module for microphone input. Enables real-time audio recording on Android via PulseAudio.
-
-> "Audio quality very good." — maintainer review, after on-device tests on Android 8 and Android 13.
-
-#### [PR #29319](https://github.com/termux/termux-packages/pull/29319) · `addpkg(main/oboe) + openal-soft + pulseaudio` · APPROVED
-
-3 commits, 1052+/5−. First time Google's Oboe library has been packaged for a Linux-style package manager outside Android Studio. Adds Oboe backend in openal-soft and PulseAudio Oboe sink/source modules.
-
-> "This works for me and it fixes the problem with openal-soft on certain devices." — maintainer review.
-
-### `tailscale/tailscale` · 1 PR · awaiting review
-
-#### [PR #19628](https://github.com/tailscale/tailscale/pull/19628) · `cmd/tailscaled, version/distro: default to userspace-networking on Crostini` · OPEN
-
-Default tailscaled to userspace-networking on Crostini, following the plan9 precedent in PR #9138. Sidesteps a two-year-old NULL deref in cros-garcon's cold-boot netlink enumeration that breaks ChromeOS Terminal after Tailscale is installed. Tested end-to-end on the Chromebook in the lab.
-
-### `rclone/rclone` · 1 PR · awaiting review
-
-#### [PR #9401](https://github.com/rclone/rclone/pull/9401) · `local: add --local-fatal-if-no-space flag` · OPEN
-
-Adds an opt-in flag that returns a fatal error when a local write hits ENOSPC, instead of letting rclone retry indefinitely on a full disk. Implementation follows the starter pattern in the issue thread. Tested on every device in the lab plus rclone's full CI matrix on the fork.
-
-### Investigative comments
+## Investigative work
 
 | Thread | What I did |
 |---|---|
-| [termux-packages#29336](https://github.com/termux/termux-packages/issues/29336#issuecomment-4274862785) | Identified upstream Neovim regression commit `142f914089` via source-trace bisection. Verified by maintainer within 4 hours. |
-| [termux-app#5086](https://github.com/termux/termux-app/issues/5086#issuecomment-4294194568) | Paired-device A/B (Pixel 10 Pro stock vs S26 Ultra OneUI) isolating Samsung's policy as root cause. Followed up with a test APK that quantified the only viable elevation pattern at exactly **1.50× CPU throughput** under load. |
-| [termux-packages#28898](https://github.com/termux/termux-packages/issues/28898#issuecomment-4148528200) | First reproducible workaround for a multi-year cluster of Samsung sleep issues. Two-command ADB fix with full mechanism trace through AOSP `WifiStateMachine` plus Doze eBPF cgroup filters. |
-
-### Public repo · `claude-code-android` · ★38
-
-[`ferrumclaudepilgrim/claude-code-android`](https://github.com/ferrumclaudepilgrim/claude-code-android). Native Termux installation guide and Claude Code recovery infrastructure. When upstream Claude Code v2.1.113 broke every Termux user, shipped v2.7.0 emergency pin within 8 hours. Repo absorbed ~20× baseline clone traffic during the break.
-
----
-
-## Client work
-
-### [`bubbalandspropertyservices.com`](https://bubbalandspropertyservices.com) · Astro 6 + Tailwind 4 · Live
-
-Small business marketing site for Bubba Lands Property Services LLC, a landscaping and property services contractor in Pensacola, FL. Built as a focused velocity test: blank repo to live preview in a few hours. Real client, real brand, NOT a template. Custom design system pulled from the owner's logo and photos. Mobile-first, sitemap, robots.txt, font hosting, A+ on securityheaders.com.
+| [termux-packages#29336](https://github.com/termux/termux-packages/issues/29336#issuecomment-4274862785) | Source-trace bisect identified Neovim regression commit `142f914089`. Maintainer-verified in 4 hours. |
+| [termux-app#5086](https://github.com/termux/termux-app/issues/5086#issuecomment-4294194568) | Pixel 10 Pro vs S26 Ultra A/B isolated Samsung's CPU policy as root cause. Test APK quantified the only viable workaround at **1.50× throughput** under load. |
+| [termux-packages#28898](https://github.com/termux/termux-packages/issues/28898#issuecomment-4148528200) | First reproducible workaround for multi-year Samsung sleep cluster. Two-command ADB fix, full mechanism trace through AOSP `WifiStateMachine` + Doze eBPF cgroup filters. |
 
 ---
 
