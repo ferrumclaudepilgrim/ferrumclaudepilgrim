@@ -20,15 +20,15 @@ PR, or issue is tested, validated, researched thoroughly, determined
 for viability and capability fully before a line of code is written. 
 My goal is to find where the bugs connect. How the 3 issues that are
 separate actually inter-weave. I won't get it perfect. Mistakes will
-happen. I am excited to continue learning, growing, contributing,
-and enjoying this journey.
+happen. I keep showing up, keep learning, keep contributing.
 
-I run a six-device home lab connected over Tailscale: two Android phones
-(a Samsung Galaxy S26 Ultra and a Google Pixel 10 Pro on Android 17 Beta,
-paired so I can test cross-vendor on every Android change), a Windows
-desktop with an RTX 5070 for inference and Docker builds, a Windows
-laptop for mobile work, an Ubuntu VPS for persistent services, and a
-Chromebook running Debian inside Crostini.
+I run a seven-device home lab connected over Tailscale: three Android
+phones (a Samsung Galaxy S26 Ultra and a Google Pixel 10 Pro on Android
+17 Beta paired for cross-vendor testing on every Android change, plus
+a Samsung Galaxy S7 on Android 8 / API 26 for old-Android compatibility
+checks), a Windows desktop with an RTX 5070 for inference and Docker
+builds, a Windows laptop for mobile work, an Ubuntu VPS for persistent
+services, and a Chromebook running Debian inside Crostini.
 
 I run a Claude Code setup with multiple specialist agent 
 roles for different concerns. One plans, one writes code, one
@@ -69,6 +69,18 @@ AAudio source module for microphone input. Enables real-time audio recording on 
 
 > "This works for me and it fixes the problem with openal-soft on certain devices." — maintainer **robertkirkman**.
 
+### `tailscale/tailscale` · 1 PR · awaiting review
+
+#### [PR #19628](https://github.com/tailscale/tailscale/pull/19628) · `cmd/tailscaled, version/distro: default to userspace-networking on Crostini` · OPEN
+
+Default tailscaled to userspace-networking on Crostini, following the plan9 precedent in PR #9138. Sidesteps a two-year-old NULL deref in cros-garcon's cold-boot netlink enumeration that breaks ChromeOS Terminal after Tailscale is installed. Tested end-to-end on the Chromebook in the lab.
+
+### `rclone/rclone` · 1 PR · awaiting review
+
+#### [PR #9401](https://github.com/rclone/rclone/pull/9401) · `local: add --local-fatal-if-no-space flag` · OPEN
+
+Adds an opt-in flag that returns a fatal error when a local write hits ENOSPC, instead of letting rclone retry indefinitely on a full disk. Implementation follows ncw's starter pattern in the issue thread. Tested on every device in the lab plus rclone's full CI matrix on the fork.
+
 ### Investigative comments
 
 | Thread | What I did |
@@ -76,11 +88,18 @@ AAudio source module for microphone input. Enables real-time audio recording on 
 | [termux-packages#29336](https://github.com/termux/termux-packages/issues/29336#issuecomment-4274862785) | Identified upstream Neovim regression commit `142f914089` via source-trace bisection. Verified by maintainer within 4 hours. |
 | [termux-app#5086](https://github.com/termux/termux-app/issues/5086#issuecomment-4294194568) | Paired-device A/B (Pixel 10 Pro stock vs S26 Ultra OneUI) isolating Samsung's policy as root cause. Followed up with a test APK that quantified the only viable elevation pattern at exactly **1.50× CPU throughput** under load. |
 | [termux-packages#28898](https://github.com/termux/termux-packages/issues/28898#issuecomment-4148528200) | First reproducible workaround for a multi-year cluster of Samsung sleep issues. Two-command ADB fix with full mechanism trace through AOSP `WifiStateMachine` plus Doze eBPF cgroup filters. |
-| [tailscale#12090](https://github.com/tailscale/tailscale/issues/12090) | Four cold-boot tests on the Chromebook above, captured strace of the cros-garcon NULL-deref after NETLINK enumeration, disproved two in-thread workarounds. Followed up with feature-request issue [tailscale#19488](https://github.com/tailscale/tailscale/issues/19488). |
 
-### Public repo · `claude-code-android` · ★30
+### Public repo · `claude-code-android` · ★38
 
 [`ferrumclaudepilgrim/claude-code-android`](https://github.com/ferrumclaudepilgrim/claude-code-android). Native Termux installation guide and Claude Code recovery infrastructure. When upstream Claude Code v2.1.113 broke every Termux user, shipped v2.7.0 emergency pin within 8 hours. Repo absorbed ~20× baseline clone traffic during the break.
+
+---
+
+## Client work
+
+### [`bubbalandspropertyservices.com`](https://bubbalandspropertyservices.com) · Astro 6 + Tailwind 4 · Live
+
+Small business marketing site for Bubba Lands Property Services LLC, a landscaping and property services contractor in Pensacola, FL. Built as a focused velocity test: blank repo to live preview in a few hours. Real client, real brand, NOT a template. Custom design system pulled from the owner's logo and photos. Mobile-first, sitemap, robots.txt, font hosting, A+ on securityheaders.com.
 
 ---
 
