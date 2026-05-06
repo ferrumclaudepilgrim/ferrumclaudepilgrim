@@ -10,7 +10,7 @@
   **BUILDER · WRITER · AI INFRASTRUCTURE**
 
   [![Site](https://img.shields.io/badge/site-ferrumclaudepilgrim.com-F4622A?style=flat&labelColor=0A0B0E)](https://ferrumclaudepilgrim.com)
-  [![Email](https://img.shields.io/badge/email-ferrumfluxfenice%40gmail.com-5AABFF?style=flat&labelColor=0A0B0E)](mailto:ferrumclaudepilgrim@gmail.com)
+  [![Email](https://img.shields.io/badge/email-ferrumclaudepilgrim%40gmail.com-5AABFF?style=flat&labelColor=0A0B0E)](mailto:ferrumclaudepilgrim@gmail.com)
 
 ---
 
@@ -55,19 +55,19 @@ on-device verification mine.
 
 Web UI permissions and missing runtime dirs for CUPS printing on Termux.
 
-> Merged by maintainer **TomJo2000** on 2026-03-28.
+> Merged after maintainer review on 2026-03-28.
 
 #### [PR #29074](https://github.com/termux/termux-packages/pull/29074) · `enhance(main/pulseaudio)` · APPROVED
 
 AAudio source module for microphone input. Enables real-time audio recording on Android via PulseAudio.
 
-> "Audio quality very good." — maintainer **robertkirkman**, after on-device tests on Android 8 and Android 13.
+> "Audio quality very good." — maintainer review, after on-device tests on Android 8 and Android 13.
 
 #### [PR #29319](https://github.com/termux/termux-packages/pull/29319) · `addpkg(main/oboe) + openal-soft + pulseaudio` · APPROVED
 
 3 commits, 1052+/5−. First time Google's Oboe library has been packaged for a Linux-style package manager outside Android Studio. Adds Oboe backend in openal-soft and PulseAudio Oboe sink/source modules.
 
-> "This works for me and it fixes the problem with openal-soft on certain devices." — maintainer **robertkirkman**.
+> "This works for me and it fixes the problem with openal-soft on certain devices." — maintainer review.
 
 ### `tailscale/tailscale` · 1 PR · awaiting review
 
@@ -79,7 +79,7 @@ Default tailscaled to userspace-networking on Crostini, following the plan9 prec
 
 #### [PR #9401](https://github.com/rclone/rclone/pull/9401) · `local: add --local-fatal-if-no-space flag` · OPEN
 
-Adds an opt-in flag that returns a fatal error when a local write hits ENOSPC, instead of letting rclone retry indefinitely on a full disk. Implementation follows ncw's starter pattern in the issue thread. Tested on every device in the lab plus rclone's full CI matrix on the fork.
+Adds an opt-in flag that returns a fatal error when a local write hits ENOSPC, instead of letting rclone retry indefinitely on a full disk. Implementation follows the starter pattern in the issue thread. Tested on every device in the lab plus rclone's full CI matrix on the fork.
 
 ### Investigative comments
 
