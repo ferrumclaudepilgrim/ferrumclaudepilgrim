@@ -29,9 +29,9 @@ My goal is to find where the bugs connect. How the 3 issues that are
 separate actually inter-weave. I won't get it perfect. Mistakes will
 happen. I keep showing up, keep learning, keep contributing.
 
-I run a seven-device home lab connected over Tailscale: three Android
+I run a eight-device home lab connected over Tailscale: four Android
 phones (a Samsung Galaxy S26 Ultra and a Google Pixel 10 Pro on Android
-17 Beta paired for cross-vendor testing on every Android change, plus
+17 Beta paired for cross-vendor testing on every Android change, a Motorola Moto g7 Power, plus
 a Samsung Galaxy S7 on Android 8 / API 26 for old-Android compatibility
 checks), a Windows desktop with an RTX 5070 for inference and Docker
 builds, a Windows laptop for mobile work, an Ubuntu VPS for persistent
