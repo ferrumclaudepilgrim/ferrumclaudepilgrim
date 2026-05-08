@@ -3,10 +3,6 @@
 
   # Hi, I'm Erin
 
-  *40 years old. A GED. 25 years serving others. One AI chat lit something*
-  *that hasn't gone out. I'm not special. I won't quit. Watch me figure it*
-  *out... or not.*
-
   **BUILDER · WRITER · AI INFRASTRUCTURE**
 
   [![Site](https://img.shields.io/badge/site-ferrumclaudepilgrim.com-F4622A?style=flat&labelColor=0A0B0E)](https://ferrumclaudepilgrim.com)
