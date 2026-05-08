@@ -3,7 +3,7 @@
 
   # Hi, I'm Erin
 
-  **BUILDER · WRITER · AI INFRASTRUCTURE**
+  **BUILDER · INDIE DEV · DOER**
 
   [![Site](https://img.shields.io/badge/site-ferrumclaudepilgrim.com-F4622A?style=flat&labelColor=0A0B0E)](https://ferrumclaudepilgrim.com)
   [![Email](https://img.shields.io/badge/email-ferrumclaudepilgrim%40gmail.com-5AABFF?style=flat&labelColor=0A0B0E)](mailto:ferrumclaudepilgrim@gmail.com)
