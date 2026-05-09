@@ -151,6 +151,22 @@ me.
 
 ---
 
+<details>
+<summary><strong>Where I'm going</strong></summary>
+
+Current pulls: development and testing across the multi-OS lab, CI/CD
+pipelines, and the overlap between networking and security. The
+networking-security one gets most interesting when LLM assistance is
+the thing running between them. If any of that lines up with
+contributing to an indie project or joining a team where the lab habits
+actually pay off, the email's up top. Career pivot into tech is the
+long arc. Soaking up knowledge and wisdom is the route. The work itself
+is most of the fun.
+
+</details>
+
+---
+
 <div align="center">
 
 **Building in public. Pensacola, FL.**
