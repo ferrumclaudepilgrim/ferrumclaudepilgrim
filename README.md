@@ -48,32 +48,6 @@ fully disclosed, choices and on-device verification mine. Currently
 studying the Android ecosystem, network and system security, Python,
 Linux, and the AI/LLM landscape.
 
----
-
-## Shipped and in flight
-
-| | Project | What | Status |
-|---|---|---|---|
-| OSS PR | [`termux-packages#29123`](https://github.com/termux/termux-packages/pull/29123) | `fix(main/cups)` web UI permissions and missing runtime dirs | MERGED 2026-03-28 |
-| OSS PR | [`termux-packages#29074`](https://github.com/termux/termux-packages/pull/29074) | `enhance(main/pulseaudio)` AAudio source module for mic input | APPROVED |
-| OSS PR | [`termux-packages#29319`](https://github.com/termux/termux-packages/pull/29319) | `addpkg(main/oboe) + openal-soft + pulseaudio` Oboe stack | APPROVED |
-| OSS PR | [`tailscale/tailscale#19628`](https://github.com/tailscale/tailscale/pull/19628) | userspace-networking default on Crostini | OPEN |
-| OSS PR | [`rclone/rclone#9401`](https://github.com/rclone/rclone/pull/9401) | `--local-fatal-if-no-space` flag for local backend | OPEN |
-| Maintained | [`claude-code-android`](https://github.com/ferrumclaudepilgrim/claude-code-android) | Native Termux + AVF guide and Claude Code recovery scripts | ★38, v2.7.0 emergency pin shipped 8h after upstream regression |
-| Client | [`bubbalandspropertyservices.com`](https://bubbalandspropertyservices.com) | Astro 6 + Tailwind 4 marketing site for landscaping contractor | Live |
-
----
-
-## Investigative work
-
-| Thread | What I did |
-|---|---|
-| [termux-packages#29336](https://github.com/termux/termux-packages/issues/29336#issuecomment-4274862785) | Source-trace bisect identified Neovim regression commit `142f914089`. Maintainer-verified in 4 hours. |
-| [termux-app#5086](https://github.com/termux/termux-app/issues/5086#issuecomment-4294194568) | Pixel 10 Pro vs S26 Ultra A/B isolated Samsung's CPU policy as root cause. Test APK quantified the only viable workaround at **1.50× throughput** under load. |
-| [termux-packages#28898](https://github.com/termux/termux-packages/issues/28898#issuecomment-4148528200) | First reproducible workaround for multi-year Samsung sleep cluster. Two-command ADB fix, full mechanism trace through AOSP `WifiStateMachine` + Doze eBPF cgroup filters. |
-
----
-
 <details>
 <summary><strong>How and why I work this way</strong></summary>
 
