@@ -39,7 +39,7 @@ services, and a Chromebook running Debian inside Crostini.
 
 I run a Claude Code setup with specialist agent roles for different
 concerns: one plans, one writes code, one documents, one keeps the repo
-clean, one researches, one handles audience-facing work, my grammar and sentence structure is not great. Session hooks
+clean, one researches, one handles audience-facing work (my grammar and sentence structure is not great.) Session hooks
 enforce safety rules before any git commit or push. Every non-trivial
 call gets written down, both wins and bail decisions, so I can check my
 own reasoning and anyone reading along can follow how I got there. I am
