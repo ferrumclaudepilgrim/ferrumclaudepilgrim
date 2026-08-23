@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="56" viewBox="0 0 620 56" fill="none" font-family="system-ui,'Segoe UI',Arial,sans-serif">
+  <defs>
+    <clipPath id="ripple">
+      <circle cx="310" cy="30" r="0">
+        <animate attributeName="r" dur="36s" repeatCount="indefinite"
+          keyTimes="0;0.833;0.889;0.986;1" values="0;0;470;470;0"/>
+      </circle>
+    </clipPath>
+  </defs>
+
+  <!-- base: blue -->
+  <text x="310" y="36" text-anchor="middle" font-size="21" font-weight="600" fill="#5091D7" letter-spacing="0.4">Learning the hard way, in real time.  Florida.</text>
+
+  <!-- overlay: orange, revealed from the center outward like a ripple -->
+  <text x="310" y="36" text-anchor="middle" font-size="21" font-weight="600" fill="#F4622A" letter-spacing="0.4" clip-path="url(#ripple)">Learning the hard way, in real time.  Florida.</text>
+</svg>
