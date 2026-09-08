@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="hero.png" width="200" alt="Ferrum Flux Fenice" />
+  <img src="logo-test.png" width="200" alt="Ferrum Flux Fenice" />
 
   # Hi, I'm Erin
 
